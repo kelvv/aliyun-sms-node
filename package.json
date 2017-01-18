@@ -1,0 +1,9 @@
+{
+  "name": "aliyun-sms-node",
+  "version": "1.0.0",
+  "description": "nodejs sdk for aliyun sms",
+  "main": "index.js",
+  "repository": "git@github.com:kelvv/aliyun-sms-node.git",
+  "author": "kelvv <kelvv@outlook.com>",
+  "license": "MIT"
+}
