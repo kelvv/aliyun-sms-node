@@ -2,8 +2,17 @@
   "name": "aliyun-sms-node",
   "version": "1.0.0",
   "description": "nodejs sdk for aliyun sms",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": "git@github.com:kelvv/aliyun-sms-node.git",
   "author": "kelvv <kelvv@outlook.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "./node_modules/.bin/babel -d lib/ src/",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "babel-cli": "^6.18.0",
+    "crypto": "^0.0.3",
+    "request": "^2.79.0"
+  }
 }
