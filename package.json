@@ -9,7 +9,7 @@
   "scripts": {
     "build": "./node_modules/.bin/babel src -d lib ",
     "prepublish": "npm run build",
-    "dev":"./node_modules/.bin/babel-node src/index"
+    "dev":"npm run build && ./node_modules/.bin/babel-node src/index"
   },
   "dependencies": {
     "babel-cli": "^6.18.0",
