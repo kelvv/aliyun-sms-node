@@ -58,4 +58,4 @@ class SMS {
   }
 }
 
-export default SMS
+module.exports = SMS
