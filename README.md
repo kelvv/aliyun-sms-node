@@ -24,3 +24,6 @@ sms.send({
 }) //返回Promise
 
 ```
+
+##文档
+[阿里云API接口](https://help.aliyun.com/document_detail/44364.html?spm=5176.8195934.507901.9.vBQY4s)
