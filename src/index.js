@@ -29,10 +29,10 @@ class SMS {
         },
         form: params
       }, (error, response, body) => {
-        if (response.statusCode !== 201) {
-          reject(body, error)
-        } else {
+        if (response.statusCode === 201 || response.statusCode === 200) {
           resolve(body)
+        } else {
+          reject(body, error)
         }
       })
     })
