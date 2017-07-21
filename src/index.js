@@ -5,12 +5,13 @@ class SMS {
   constructor ({AccessKeyId = '', AccessKeySecret = ''}) {
     this.AccessKeyId = AccessKeyId
     this.AccessKeySecret = AccessKeySecret
-    this.api = 'https://sms.aliyuncs.com/'
+    this.api = 'https://dysmsapi.aliyuncs.com/'
   }
 
   send (args) {
     let params = {
-      Version: '2016-09-27',
+      Version: '2017-05-25',
+      Format: 'JSON',
       SignatureMethod: 'HMAC-SHA1',
       SignatureNonce: this.getRandomStr(25),
       SignatureVersion: '1.0',
