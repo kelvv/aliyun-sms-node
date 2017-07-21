@@ -15,15 +15,15 @@ var sms = new SMS({
 });
 
 sms.send({
-  Action:'SingleSendSms',
-  Format:'JSON',
-  ParamString:'{"code":"1234"}',
-  RecNum:'13516534111',
-  SignName:'标签测试',
-  TemplateCode:'SMS_1650053',
+  Format: 'JSON',
+  Action: 'SendSms',
+  TemplateParam: '{"code":"1234"}',
+  PhoneNumbers: '13516534108',
+  SignName: '北京月文化',
+  TemplateCode: 'SMS_77730013'
 }) //返回Promise
 
 ```
 
 ##文档
-[阿里云API接口](https://help.aliyun.com/document_detail/44364.html?spm=5176.8195934.507901.9.vBQY4s)
+[阿里云API接口](https://help.aliyun.com/document_detail/56189.html?spm=5176.product44282.6.562.wa7Yda)
