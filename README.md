@@ -18,7 +18,7 @@ sms.send({
   Format: 'JSON',
   Action: 'SendSms',
   TemplateParam: '{"code":"1234"}',
-  PhoneNumbers: '13516534108',
+  PhoneNumbers: '13516534103',
   SignName: '北京月文化',
   TemplateCode: 'SMS_77730013'
 }) //返回Promise
