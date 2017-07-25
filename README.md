@@ -1,12 +1,12 @@
 # 阿里云sms服务sdk for Nodejs
 
-##安装
-```
+## 安装
+```bash
 npm install aliyun-sms-node
 ```
 
-##使用
-```
+## 使用
+``` javascript
 var SMS = require('aliyun-sms-node');
 
 var sms = new SMS({
@@ -25,5 +25,5 @@ sms.send({
 
 ```
 
-##文档
+## 文档
 [阿里云API接口](https://help.aliyun.com/document_detail/56189.html?spm=5176.product44282.6.562.wa7Yda)
